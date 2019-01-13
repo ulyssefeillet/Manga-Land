@@ -1,0 +1,243 @@
+
+body
+
+{
+
+   background: url(../11.png) no-repeat;
+   background-attachment: fixed;
+   height:100%;
+   background-size:cover;
+   
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+
+#bloc_image
+
+{
+
+	background: url('../img/17.png') center;
+	background-repeat: no-repeat;
+	height: 250px;
+    margin: auto;
+	
+}
+
+#bloc_principalBlog
+
+{
+
+    width: 1210px;
+    margin: auto;
+	margin-top: 0px;
+	height: 1600px;
+	border-radius: 25px;
+	margin-right: 300px;
+	background-color: rgba( 255, 255, 255,0.9);
+}
+
+#sous-bloc
+{
+	width: 1230px;
+    margin: auto;
+	height: 60px;
+	border-radius: 25px;
+	margin-right: 155px;
+	background-color: rgba( 255, 255, 255,0.9);
+	margin-bottom: 8px;
+	text-align:center;
+	font-size: 2.2em;
+	padding-top: 25px;
+}
+
+
+#banniĂ¨re_titre
+{
+	position: absolute;
+
+    bottom: 0;
+
+    border-radius: 0px 0px 5px 5px;
+
+    width: 99.5%;
+
+    height: 33px;
+
+    padding-top: 37px;
+
+    padding-left: 4px;
+
+    background-color: rgba(24,24,24,0.8);
+
+    color: white;
+
+    font-size: 0.8em;
+	
+	text-align: center;
+}
+
+#Goblin_Slayer
+{
+	background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height: 55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 10px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 15px;
+}
+
+#img01
+{
+	width: 200px;
+	margin-top: 7px;
+	height: 300px;
+	float: left;
+	margin-bottom:8px;
+	background: url('../img/045.png')no-repeat ;
+	background-size: 200px 300px;
+	margin-right : 8px;
+	margin-left : 100px;
+	margin-top: 100px;
+	
+}
+
+
+
+#Texte
+{
+	text-align: center;
+	width: 700px;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 450px;
+}
+
+
+#Gudako
+{
+	background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height:  55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 10px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 535px;
+}
+
+#img02
+{
+	width: 200px;
+	margin-top: 7px;
+	height: 300px;
+	float: left;
+	margin-bottom:8px;
+	background: url('../img/046.png')no-repeat ;
+	background-size: 200px 300px;
+	margin-right : 8px;
+	margin-left : 100px;
+	margin-top: 620px;
+	position: absolute;
+}
+
+
+
+#Texte2
+{
+	text-align: center;
+	width: 700px;
+	position: absolute;
+	margin-top: 750px;
+	margin-left: 450px;
+}
+
+
+
+#Limule
+{
+	background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height:  55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 10px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 1055px;
+}
+
+#img03
+{
+	width: 200px;
+	margin-top: 7px;
+	height: 300px;
+	float: left;
+	margin-bottom:8px;
+	background: url('../img/047.png')no-repeat ;
+	background-size: 200px 300px;
+	margin-right : 8px;
+	margin-left : 100px;
+	margin-top: 1140px;
+	position: absolute;
+	
+}
+
+
+
+#Texte3
+{
+	text-align: center;
+	width: 700px;
+	position: absolute;
+	margin-top: 1270px;
+	margin-left: 450px;
+}
+
+
+
+
+
+

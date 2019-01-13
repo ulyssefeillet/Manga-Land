@@ -1,0 +1,316 @@
+ body {
+     background: url(../img/11.png) no-repeat;
+     background-attachment: fixed;
+     height:100%;
+	 background-size:cover;
+     margin-left:0px;
+     margin-right:0px;
+     margin-top:0px;
+     margin-bottom:0px;
+}
+ #bloc_image {
+     background: url('../img/17.png') center;
+     background-repeat: no-repeat;
+     height: 250px;
+     margin: auto;
+}
+ #bloc_principal {
+     width: 1230px;
+     margin: auto;
+     margin-top: 1px;
+     height: 1500px;
+     border-radius: 25px;
+     margin-right: 155px;
+}
+#bloc_principal5
+
+{
+
+    width: 1210px;
+    margin: auto;
+	margin-top: 0px;
+	height: 600px;
+	border-radius: 25px;
+	margin-right: 350px;
+	background-color: rgba( 255, 255, 255,0.9);
+}
+
+#Ressource_Manga
+{   background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height: 55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 8px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 15px;
+}
+
+#Ressource_Bootstrap
+{   background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height: 55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 8px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 220px;
+}
+
+#Ressource_Site
+{   background-color: rgba( 64, 130, 209, 0.7);
+	
+	width: 1210px;
+	
+	position: absolute;
+	
+	height: 55px;
+	
+    text-align: center;
+	
+	vertical-align: middle;
+
+    flex: 1.2;
+	
+    padding: 8px;
+	
+    color: white;
+	
+    font-size: 1.7em;
+	
+	margin-top: 420px;
+}
+
+.liens {
+list-style-type:circle;
+}
+
+#lien1
+{
+	margin-top: 100px;
+	position: absolute;
+	margin-left: 150px;
+	font-size: 1.3em;
+}
+
+#lien2
+{
+	margin-top: 300px;
+	position: absolute;
+	margin-left: 150px;
+	font-size: 1.4em;
+}
+
+#lien3
+{
+	margin-top: 500px;
+	position: absolute;
+	margin-left: 150px;
+	font-size: 1.4em;
+}
+	
+ #ACTU {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: left;
+     margin-bottom:8px;
+     background: url('../img/final 022.png')no-repeat center;
+}
+ #AUTOMNE {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: right;
+     margin-bottom:8px;
+     background: url('../img/final 025.png')no-repeat center;
+}
+ #Nouveautés_et_sorties_2019 {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: left;
+     margin-bottom:8px;
+     background: url('../img/final 024.png')no-repeat center;
+}
+ #ANIMES {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: right;
+     margin-bottom:8px;
+     background: url('../img/final 026.png')no-repeat center;
+}
+ #Les_Incontournables {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: left;
+     margin-bottom:8px;
+     background: url('../img/final 028.png')no-repeat center;
+}
+ #Les_scènes_cultes {
+     width: 610px;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     height: 360px;
+     border-radius: 8px;
+     float: right;
+     margin-bottom:8px;
+     background: url('../img/final 027.png')no-repeat center;
+}
+
+
+.footer {
+         color: white;
+         }
+		 
+.bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         }
+		 
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+         font-size: 3.5rem;
+         }
+         }
+		 
+#logo
+         {
+         margin-right: 10px;
+         }
+		 
+.lead text-muted {
+         color: white;
+         }
+		 
+ #bannière_titre {
+     position: absolute;
+     bottom: 0;
+     border-radius: 0px 0px 5px 5px;
+     width: 99.5%;
+     height: 33px;
+     padding-top: 15px;
+     padding-left: 4px;
+     background-color: rgba(24,24,24,0.8);
+     color: white;
+     font-size: 0.8em;
+     text-align: center;
+}
+ aside {
+     background-color: rgba(84, 130, 53, 0.6);
+     float: left;
+     margin-top: 55px;
+     width: 300px;
+     position:relative;
+     border-radius: 25px;
+     height: 1096px;
+     text-align: center;
+     flex: 1.2;
+     box-shadow: 0px 2px 5px #1c1a19;
+     border-radius: 25px;
+     padding: 10px;
+     color: white;
+     font-size: 0.9em;
+}
+ section h1, footer h1, nav a {
+     font-family: Dayrom, serif;
+     font-weight: normal;
+     text-transform: uppercase;
+}
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     color: white;
+}
+ #titre_principal {
+     display: flex;
+     flex-direction: column;
+}
+ #logo {
+     display: flex;
+     flex-direction: row;
+     align-items: baseline;
+}
+ #logo img {
+     width: 59px;
+     height: 60px;
+}
+ header h1 {
+     font-family: 'BallparkWeiner', serif;
+     font-size: 2.5em;
+     font-weight: normal;
+     margin: 0 0 0 10px;
+}
+ header h2 {
+     font-family: Dayrom, serif;
+     font-size: 1.1em;
+     margin-top: 0px;
+     font-weight: normal;
+     margin-top: 65px;
+}
+ nav ul {
+     list-style-type: none;
+     display: flex;
+}
+ nav li {
+     margin-right: 15px;
+}
+ nav a {
+     font-size: 1.3em;
+     color: white;
+     padding-bottom: 3px;
+     text-decoration: none;
+     position: relative;
+     top: 5px;
+     height: auto;
+}
+ nav a:hover {
+     color: #760001;
+     border-bottom: 3px solid #760001;
+}
+ 

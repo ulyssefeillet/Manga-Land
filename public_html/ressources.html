@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="Ulysse Feillet">
+      <title>Accueil</title>
+      <!-- Bootstrap core CSS -->
+      <!--link rel="stylesheet" href="./css/bootstrap/4.2.1/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/accueil.css">
+      <!-- Custom styles for this template -->
+      <link href="./css/bootstrap/4.2.1/carousel.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/base.css">
+      <style>
+         .jumbotron {
+         background: url('img/17.png') center;
+         color: white;
+         }
+         .footer {
+         color: white;
+         }
+         .bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         }
+         @media (min-width: 768px) {
+         .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+         }
+         }
+         #logo
+         {
+         margin-right: 10px;
+         }
+         .lead text-muted {
+         color: white;
+         }
+         /* Tooltip container */
+         .tooltip {
+         position: relative;
+         display: inline-block;
+         border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+         }
+         /* Tooltip text */
+         .tooltip .tooltiptext {
+         visibility: hidden;
+         width: 120px;
+         background-color: black;
+         color: #fff;
+         text-align: center;
+         padding: 5px 0;
+         border-radius: 6px;
+         /* Position the tooltip text - see examples below! */
+         position: absolute;
+         z-index: 1;
+         }
+         /* Show the tooltip text when you mouse over the tooltip container */
+         .tooltip:hover .tooltiptext {
+         visibility: visible;
+         }
+      </style>
+      <link rel="icon" href="favicon.ico" />
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <img id="logo" src="./img/logo.png" width="60" height="55" alt="logo"/>
+            <a class="navbar-brand" href="#">Manga Land</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="actus.html">Actualités</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nouveautés</a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="nouveautes.html">Nouveautés</a>
+                        <a class="dropdown-item" href="automne.html">Sorties Automne 2018</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Album</a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <a class="dropdown-item" href="album.html">Animes</a>
+                        <a class="dropdown-item" href="incontournables.html">Incontournables</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="blog.html">Temoignages</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="ressources.html">Ressources</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html#about">A Propos</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section class="jumbotron text-center">
+            <div class="container" >
+               <div class="block_image" >
+                  <h1 class="jumbotron-heading">Resources</h1>
+               </div>
+            </div>
+         </section>
+         <div id="bloc_principal5">
+		    <div id="Ressource_Manga">
+               Ressources Manga
+            </div>
+            <div id="lien1">
+               <ul class="liens">
+                  <li><a href="https://www.mangasfan.fr/">MANGAS'FAN</a></li>
+                  <li><a href="https://www.nautiljon.com/">Nautiljon</a></li>
+                  <li><a href="https://www.manga-sanctuary.com/">Manga Sanctuary</a></li>
+               </ul>
+            </div>
+			<div id="Ressource_Bootstrap">
+               Ressources Bootstrap
+            </div>
+            <div id="lien2">
+               <ul class="liens">
+                  <li><a href="https://getbootstrap.com/">Accueil</a></li>
+                  <li><a href="https://getbootstrap.com/docs/4.2/examples/">Exemples</a></li>
+               </ul>
+            </div>
+			<div id="Ressource_Site">
+               Rapport et présentation du projet
+            </div>
+            <div id="lien3">
+               <ul class="liens">
+                  <li><a href="./ressources/Rapport_Manga_Land.pdf">Rapport</a></li>
+				  <li><a href="./ressources/CODIN_DIAPO.pdf">Présentation</a></li>
+               </ul>
+            </div>
+         </div>
+      </main>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   </body>
+</html>
