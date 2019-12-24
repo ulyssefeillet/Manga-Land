@@ -7,8 +7,8 @@ Le site doit bien se comporter sur les petits écrans ; au minimum il doit avoir
 
 ## Réalisation
 ![Accueil](./accueil.jpg "Accueil")
-<img src="./accueil2.jpg" width="500">
-<img src="./album.jpg" width="500">
+<img src="./accueil2.jpg" width="350">
+<img src="./album.jpg" width="350">
 ![Rapport](./Rapport_Manga_Land.pdf "Rapport")
 
 
