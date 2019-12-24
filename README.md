@@ -5,3 +5,8 @@ Vous devrez réaliser un site Web,ainsi un rapport et une présentation orale po
 ## Spécification
 Le site doit bien se comporter sur les petits écrans ; au minimum il doit avoir une apparence correcte sur un écran de 350 pixels de large. Le site doit passer la validation W3C. Le logo du sujet et un titre doivent apparaître dans l’onglet du site. Quand la souris reste immobile sur une image, un texte explicatif (tooltip) doit apparaître. 
 
+## Réalisation
+![Accueil](./accueil.jpg?raw=true "Accueil")
+![Accueil 350px](./accueil2.jpg?raw=true "Accueil")
+![Album](./album.jpg?raw=true "Title")
+
